@@ -1,0 +1,249 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.p_main {
+    margin: 0;
+    padding: 0;
+}
+
+.com_separator {
+    height: 2px;
+    background: #F7F8FA;
+    border: none;
+    width: calc(100% + 40px);
+    margin-left: -20px;
+    overflow-x: hidden;
+}
+
+.p_header .com_header {
+    padding: 12px 0;
+    margin-bottom: 12px;
+}
+
+.p_header .title {
+    font-family: Noto Sans;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: -0.18px;
+}
+
+.com_container {
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.p_main .post_title {
+    color: #1D232B;
+    font-family: Noto Sans;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: -0.14px;
+}
+
+.p_main .post_text {
+    color: #313B49;
+    margin: 12px 0;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: Noto Sans;
+
+
+}
+
+.com_flex_center {
+    display: flex;
+    align-items: center;
+}
+
+.com_flex_between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.p_main .post_hashtags {
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.com_hashtag {
+    background: #F7F8FA;
+    border: .5px solid #CED3DE;
+    border-radius: 16px;
+    padding: 5px 12px;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+
+.com_hashtag:hover {
+    background: #ebeef2;
+}
+
+.com_hashtag .com_sub_hashtag_text {
+    font-size: 12px;
+    font-weight: 600;
+    color: #5A6B87;
+}
+
+.com_user_header {
+    margin: 16px 0;
+}
+
+.com_user_header .user_header_profile {
+    margin: 0 8px 0 0;
+}
+
+.com_user_header .user_header_user_detail {
+    gap: 4px;
+}
+
+.com_user_header .user_header_userdetail {
+    color: #919EB6;
+    font-family: Noto Sans;
+    font-size: 10px;
+    font-style: normal;
+}
+
+.com_user_header .user_header_subdetails {
+    color: #919EB6;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    gap: 4px;
+}
+
+.com_user_header .user_header_username {
+    color: #1D232B;
+    font-family: Noto Sans;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.com_user_header .user_header_button button {
+    padding: 6px 12px;
+    border-radius: 100px;
+    border: none;
+    background-color: #01B99F;
+    color: #fff;
+    text-align: center;
+    font-family: Noto Sans;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.com_user_header .user_header_button button:hover {
+    background-color: #01a08b;
+
+}
+
+.p_main .post_image_slider {
+    margin: 16px 0;
+    width: calc(100% + 40px);
+    margin-left: -20px;
+    overflow-x: hidden;
+}
+
+.p_main .post_image_slider .slick-dots {
+    bottom: 5px;
+}
+
+.p_main .post_image_slider .slick-dots li {
+    width: 10px;
+    margin: 0 2px;
+}
+
+.p_main .post_image_slider .slick-dots li button:before {
+    color: #CED3DE;
+}
+
+.p_main .post_image_slider .slider_image_content {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.p_main .post_image_slider .slider_image_content img {
+    width: 100%;
+    height: 100%;
+}
+
+.p_main .post_reactions {
+    margin: 16px 0;
+    gap: 8px;
+}
+
+.p_main .post_reactions>.post_react{
+    cursor: pointer;
+}
+
+.p_main .post_reactions>.post_react>span {
+    color: #919EB6;
+    font-size: 12px;
+    font-weight: 400;
+
+}
+
+
+.p_main .discussion_detail {
+    padding-left: 40px;
+}
+
+.p_main .discussion_detail .discussion_reaction {
+    gap: 8px;
+    margin: 6px 0;
+}
+
+.p_main .discussion_detail .discussion_reaction>.comment_react {
+    color: #919EB6;
+    font-size: 9.349px;
+    font-weight: 400;
+}
+
+.p_main .discussion_detail .discussion_reaction>.comment_react>img {
+    max-width: 25px;
+    max-height: 25px;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.p_main .add_commit_main {
+    width: 100%;
+    gap: 16px;
+    padding: 8px 0;
+    justify-content: space-between;
+}
+
+.p_main .add_commit_main .add_commit_image {
+    cursor: pointer;
+}
+.p_main .add_commit_main .add_commit_input{
+    flex: 1;
+}
+.p_main .add_commit_main .add_commit_input>input {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 12px;
+    font-weight: 500;
+    color: #AFB9CA;
+    font-family: Noto Sans;
+    padding: 8px 0;
+    letter-spacing: -0.12px
+}
+
+.p_main .add_commit_main .add_commit_post>button {
+    color: #919EB6;
+    background: transparent;
+    border: none;
+    font-size: 12px;
+    cursor: pointer;
+    /* min-width: 25px; */
+}
